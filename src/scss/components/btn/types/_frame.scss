@@ -1,0 +1,21 @@
+@if index($btn-types, frame){
+  /*== Frame ==*/
+  .btn--frame{
+    background-color: #f07f2e;
+
+    &:active{
+      background-color: darken(#f07f2e, 10%);
+    }
+
+    @media (hover:hover) {
+      &:hover,
+      &:focus{
+        background-color: lighten(#f07f2e, 10%);
+      }
+    }
+
+    &[disabled]{
+      background-color: rgba(#b5b5be, 0.5);
+    }
+  }
+}
