@@ -41,7 +41,7 @@
   }
 }
 
-@mixin scrol-bar{
+@mixin scroll-bar{
   &::-webkit-scrollbar{
     width: 14px;
   }
@@ -51,7 +51,7 @@
     border-radius: 104px;
 
     &:hover{
-     background-color: rgba(#fff, 0, 3);
+     background-color: rgba(#fff, 0.3);
     }
   }
 
